@@ -18,7 +18,7 @@ $ npm start
 
 ## Endpoint details
 
-Returns json data about a weather in a specificed location.
+Returns json data about weather in a specificed location.
 
 * **URL and Method**
 
