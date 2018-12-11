@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "name": "dark-sky-proxy",
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@now/node-server"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/v1/weather",
+      "dest": "index.js"
+    },
+    {
+      "src": "/_health",
+      "dest": "index.js"
+    }
+  ],
+  "env": {
+    "API_KEY": "@dark-sky-proxy-api-key"
+  }
+}
