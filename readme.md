@@ -31,7 +31,7 @@ Returns json data about weather in a specificed location.
   | Parameter | Type | Description |
   | :--- | :--- | :--- |
   | `latLong` | `string` | **Required**. A comma-separated latitude and logitude. Spaces between the coordinated are allowed (ex: `-1.9706, 30.1044`). |
-  | `exclude` | `string` | **Required**. A comma-separated list denoting what to exclude from the API response (ex. `currently,minutely,hourly`). [Reference.](https://darksky.net/dev/docs)|
+  | `exclude` | `string` | A comma-separated list denoting what to exclude from the API response (ex. `currently,minutely,hourly`). [Reference.](https://darksky.net/dev/docs)|
 
 * **Successful Response**
 
